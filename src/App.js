@@ -4,6 +4,7 @@ import { Header } from './component/Header/Header';
 import Menubar from './component/Menubar/Menubar';
 import HeroSection from './component/HeroSection/HeroSection';
 import Banner from './component/Banner/Banner';
+import LatestPost from './LatestPost/LatestPost';
 // import Header from './component/Header/Header';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Menubar />
       <HeroSection />
       <Banner />
+      <LatestPost/>
     </div>
   );
 }

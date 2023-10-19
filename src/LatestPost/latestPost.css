@@ -1,0 +1,125 @@
+h4, h3, h2{
+  font-family: 'Vidaloka', serif;
+}
+
+.latest_post_section{
+  padding: 10px 0px;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column-1 {
+  float: none;
+  width: 100%;
+}
+
+.column-2 {
+  float: left;
+  width: 50%;
+}
+
+.column-3 {
+  float: left;
+  width: 33.333%;
+}
+
+.fancy-sep {
+  display: block;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.fancy-sep span {
+  position: relative;
+  display: inline-block;
+}
+
+.fancy-sep span:before,
+.fancy-sep span:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 1600px;
+  height: 3px;
+  background: rgb(3, 3, 3);
+}
+
+.fancy-sep span:before {
+  right: 100%;
+  margin-right: 15px;
+}
+
+.fancy-sep span:after {
+  left: 100%;
+  margin-left: 15px;
+}
+.fancy-sep .heading{
+  font-size: 28px;
+}
+.latest_posts{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+}
+
+.post_item img{
+  width: 100%;
+}
+.post_item {
+  position: relative;
+  display: inline-block;
+  height: 400px; /* Set a fixed height for .post_item (adjust as needed) */
+}
+
+.postDescription {
+  border: 1px solid red;
+  display: block;
+  z-index: 40000;
+  position: absolute;
+  top: 73%;
+  left: 22%;
+  width: 60%;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  box-sizing: border-box;
+  transform: translateY(-50%); /* Center the .postDescription vertically */
+}
+
+.smallHeadline p {
+  margin: 0;
+}
+.postDescription h4{
+  color: #1D1A1A;
+  font-size: 28px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.postDescription h5{
+  color: #838383;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  
+}
+.smallHeadline{
+  margin: 0 auto
+}
+
+.continue_reading_button {
+  cursor: pointer;
+  padding: 20px 0px;
+  background: transparent;
+  border-bottom: 1px solid white;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  color: white;
+  outline: none;
+}
+
+
