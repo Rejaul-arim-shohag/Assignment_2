@@ -1,0 +1,43 @@
+.heroSection{
+  width: 100%;
+  background-image:url("../../images/Image.png");
+  background-size: cover;
+  height: 70vh;
+  background-repeat: no-repeat;
+  color: white
+  
+}
+.hero_container{
+  height: 100%;
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+}
+.right_side{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sliders{
+  border: 1px solid white;
+  margin-left: 330px;
+  padding: 30px 60px
+}
+.item h1{
+  font-family: 'Vidaloka', serif;
+}
+.item p{
+  border-bottom: 1px solid white;
+  width: max-content;
+}
+.continue_reading_button {
+  cursor: pointer;
+  padding: 20px 0px;
+  background: transparent;
+  border-bottom: 1px solid white;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  color: white;
+  outline: none;
+}

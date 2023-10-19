@@ -1,0 +1,28 @@
+.main_menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0px;
+}
+.menu_items ul{
+  display: flex;
+  justify-content: space-between;
+
+}
+.left_side{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu_items ul li{
+  margin: 0 10px;
+}
+.search_box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.search_box img{
+  height: 22px;
+  margin-left: 10px;
+}
