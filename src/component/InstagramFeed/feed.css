@@ -1,0 +1,22 @@
+.instagram_feed {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 2%;
+  margin: 35px 0px;
+}
+.instagram_feed img {
+  width: 100%;
+}
+
+.follow_us_btn {
+    width: 100%;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    padding: 16px 25px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}

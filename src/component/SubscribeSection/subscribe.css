@@ -1,0 +1,53 @@
+.subscribe_container {
+    padding: 40px 0px;
+    background-color: #DDDDDD;
+    margin: 50px 0px;
+  }
+.subscribe_section {
+  width: 60%;
+  margin: 0 auto;
+}
+.input-container {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+.subscribe_section h4{
+    font-size: 36px;
+    font-weight: 400;
+    margin: 10px 0px;
+}
+.input-field {
+  border-radius: 4%;
+  padding: 10px 20px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 27px;
+  outline: none;
+  padding: 21px 31px;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+.action-button {
+    position: absolute;
+    font-size: 18px;
+    right: 10px;
+    top: 5px;
+    background-color: black;
+    color: white;
+    padding: 18px 55px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* Optional: Hover effect */
+.action-button:hover {
+  background-color: black;
+}
+.terms{
+    text-align: center;
+    margin: 20px 0px
+}

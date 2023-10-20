@@ -1,19 +1,18 @@
-.header_nav{
+.header_nav {
   display: flex;
   padding: 9px 0px;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 2px solid #DDDDDD;
+  border-bottom: 2px solid #dddddd;
 }
-.welcome_text{
-  color: #6F6F6F;
+.welcome_text {
+  color: #6f6f6f;
   font-size: 16px;
   font-weight: 500;
 }
-.SocialIcons{
+.SocialIcons {
   display: flex;
   align-items: center;
-
 }
 .icon {
   margin: 6px;
@@ -25,10 +24,19 @@
   font-size: 18px;
   background-color: black;
   color: white;
-  padding: 10px 25px; 
-  border: none; 
-  border-radius: 25px; 
-  cursor: pointer; 
-  text-decoration: none; 
-  display: inline-block; 
+  padding: 10px 25px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+}
+.header_right {
+  display: flex;
+}
+.SocialIcons .icon:last-child {
+  border-right: 1px solid black;
+  margin-right: 20px;
+  padding-right: 10px;
+ 
 }

@@ -1,5 +1,5 @@
-.banner_section{
-  padding: 20px 0px;
+.banner_section {
+  padding-top: 50px;
   display: grid;
   grid-template-columns: auto auto auto auto auto;
   gap: 20px;

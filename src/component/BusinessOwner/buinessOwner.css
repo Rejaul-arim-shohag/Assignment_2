@@ -1,0 +1,39 @@
+h1 {
+  font-family: "Vidaloka", serif;
+}
+.business_owner_section {
+  background-color: #dddddd;
+  margin: 40px 0px;
+}
+.business_owner {
+  margin: 0 auto;
+  width: 60%;
+  display: flex;
+  align-items: center; /* Center vertically */
+  justify-content: space-between; /* Space between columns */
+  padding: 20px; /* Add padding as needed */
+}
+
+.owner_img img {
+  width: 190px; /* Set image width as needed */
+  height: 190px; /* Set image height as needed */
+  object-fit: cover; /* Maintain aspect ratio */
+  border-radius: 50%; /* Round the corners for a circular image */
+}
+
+.description {
+  margin-left: 20px; /* Add margin between image and description */
+}
+.owner-social {
+  display: flex;
+  align-items: center; /* Center vertically */
+  justify-content: space-between;
+}
+.owne_socail_icon {
+  display: flex;
+  align-items: center; /* Center vertically */
+  justify-content: flex-start;
+}
+.owne_socail_icon img {
+  margin-right: 20px;
+}
